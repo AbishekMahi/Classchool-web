@@ -4,6 +4,7 @@
     .main {
         width: 105%;
     }
+
     #myBtn {
         bottom: 0px;
         right: 0px;
@@ -13,13 +14,14 @@
         border-radius: 50%;
         font-size: 28px;
     }
+
     .navbar {
-        margin-right: 3rem;
+        margin-right: 3.5rem;
         top: 0;
     }
 
     .navbar-brand img {
-        height: 3.4rem;
+        height: 4rem;
         padding-left: 0.5rem;
     }
 
@@ -27,7 +29,7 @@
         width: 45px;
         padding: 5px;
         position: absolute;
-        top: -5px;
+        top: -0;
         right: -25px;
         cursor: pointer;
         margin-right: 1rem;
@@ -55,5 +57,39 @@
     .homesnap {
         width: 360%;
         margin: auto;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #myBtn {
+        bottom: 0px;
+        right: 0px;
+        margin: 1.8rem;
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        font-size: 28px;
+    }
+
+    .navbar {
+        margin-right: 3rem;
+        top: 0;
+    }
+
+    .navbar-brand img {
+        height: 3.1rem;
+    }
+    #daynight {
+        width: 45px;
+        padding: 5px;
+        position: absolute;
+        top: -10px;
+        right: -25px;
+        cursor: pointer;
+        margin-right: 1rem;
+    }
+    h1,
+    .top-head {
+        font-size: 3rem;
     }
 }
