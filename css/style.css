@@ -94,20 +94,21 @@ body {
     right: 0px;
     margin: 2rem;
     z-index: 99;
-    border: none;
     outline: none;
+    border-color: #ffffff;
+    border-width: 3px;
     width: 60px;
     height: 60px;
-    background-color:var(--primary-color);
-    color: var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
     cursor: pointer;
     border-radius: 50%;
     font-size: 28px;
 }
 
 #myBtn:hover {
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 hr {
@@ -150,7 +151,6 @@ ul {
 .navbar {
     margin-right: 3.3rem;
     top: 0;
-    /* background-color: #BD94FA; */
 }
 
 .navbar-brand img {
@@ -175,7 +175,7 @@ ul {
 }
 
 #daynight {
-    width: 42px;
+    width: 45px;
     padding: 5px;
     margin-left: 10px;
     position: absolute;
