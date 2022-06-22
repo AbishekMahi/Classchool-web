@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="images/icon.png" />
     <title>Classchool</title>
     <link rel="manifest" href="manifest.json">
@@ -17,6 +16,9 @@
     <meta property="og:site_name" content="Classchool">
 
     <!-- CSS only -->
+    <link rel="stylesheet" href="icons/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
@@ -28,8 +30,11 @@
         <!-- </lottie-player> -->
         <!-- https://assets3.lottiefiles.com/packages/lf20_gqhy4rmx.json -->
     </div>
+    <!-- back to top button -->
+    <button onclick="topFunction()" id="myBtn" title="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
     <div class="main">
-        <nav class="navbar navbar-light navbar-expand-md bg-transparent">
+    
+        <nav class="navbar navbar-light navbar-expand-md ">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
                     <img id="logo" src="images/logowhite.png" alt="Classchool-logo">
@@ -57,21 +62,20 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown link
+                                Download App
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="#">For Parents</a></li>
+                                <li><a class="dropdown-item" href="#">For Teachers</a></li>
+                                <li><a class="dropdown-item" href="#">For Management</a></li>
                             </ul>
                         </li>
                     </ul>
                     <button class="btn btn-light" type="button">Contact</button>
                 </div>
-                <img src="images/moon.png" id="daynight">
-
             </div>
         </nav>
+        <img src="images/moon.png" id="daynight">
 
         <!-- top container -->
         <div class="top">
@@ -80,18 +84,43 @@
                     <h1 class="top-head">Welcome to <span class="top-head-span">Classchool</span></h1>
                     <p class="top-para">Classchool is a one stop solution for School Management System. Classchool helps
                         to bring the Digitalized Environment to your entire institution.</p>
-                    <button type="button" class="btn btn-outline-light btn-lg dlbtn"><i class="fab fa-apple"></i>
+                    <button type="button" class="btn btn-outline-light btn-lg dlbtn"><i
+                            class="fa-solid fa-download"></i>
                         Download</button>
-                    <button type="button" class="btn btn-outline-light btn-lg dlbtn"><i class="fab fa-google-play"></i>
-                        Download</button>
+                    <!-- <button type="button" class="btn btn-outline-light btn-lg dlbtn"><i class="fab fa-google-play"></i>
+                        Download</button> -->
                 </div>
 
-                <div class="col-lg-6 bg-img2 p-auto d-flex justify-content-center"
-                    style="background-image: url('images/ripple.gif');">
-
+                <div class="col-lg-6 bg-img2 p-auto d-flex justify-content-center">
                     <div class=" d-flex justify-content-center">
                         <lottie-player class="homesnap" src="images/kids-studying.json" background="transparent"
-                            speed="1" style="width: 400px; height: 400px;" loop autoplay>
+                            speed="1" loop autoplay>
+                        </lottie-player>
+                        <!-- https://assets7.lottiefiles.com/packages/lf20_yjrdpceb.json -->
+                        <!-- https://assets2.lottiefiles.com/packages/lf20_sknsem5j.json -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- top container -->
+        <div class="top">
+            <div class="row">
+                <div class="col-lg-6 welcome">
+                    <h1 class="top-head">Welcome to <span class="top-head-span">Classchool</span></h1>
+                    <p class="top-para">Classchool is a one stop solution for School Management System. Classchool helps
+                        to bring the Digitalized Environment to your entire institution.</p>
+                    <button type="button" class="btn btn-outline-light btn-lg dlbtn"><i
+                            class="fa-solid fa-download"></i>
+                        Download</button>
+                    <!-- <button type="button" class="btn btn-outline-light btn-lg dlbtn"><i class="fab fa-google-play"></i>
+                                Download</button> -->
+                </div>
+
+                <div class="col-lg-6 bg-img2 p-auto d-flex justify-content-center">
+                    <div class=" d-flex justify-content-center">
+                        <lottie-player class="homesnap" src="images/kids-studying.json" background="transparent"
+                            speed="1" loop autoplay>
                         </lottie-player>
                         <!-- https://assets7.lottiefiles.com/packages/lf20_yjrdpceb.json -->
                         <!-- https://assets2.lottiefiles.com/packages/lf20_sknsem5j.json -->
@@ -102,12 +131,7 @@
         </div>
     </div>
 
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
-    </script>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <script src="https://kit.fontawesome.com/0b889a295e.js" crossorigin="anonymous"></script>
+
     <script>
         // Day and Night
         var daynight = document.getElementById("daynight");
@@ -121,8 +145,32 @@
                 logo.src = "images/logowhite.png"
             }
         }
-    </script>
+        //Back To Top:
+        mybutton = document.getElementById("myBtn");
 
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </body>
 
 </html>

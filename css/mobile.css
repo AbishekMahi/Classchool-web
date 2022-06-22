@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@media only screen and (max-width: 770px) {
+    .main {
+        width: 105%;
+    }
+    #myBtn {
+        bottom: 0px;
+        right: 0px;
+        margin: 2rem;
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        font-size: 28px;
+    }
+    .navbar {
+        margin-right: 3rem;
+        top: 0;
+    }
+
+    .navbar-brand img {
+        height: 3.4rem;
+        padding-left: 0.5rem;
+    }
+
+    #daynight {
+        width: 42px;
+        padding: 5px;
+        position: absolute;
+        top: -5px;
+        right: -25px;
+        cursor: pointer;
+        margin-right: 1rem;
+    }
+
+    .top {
+        margin: 4% 12%;
+    }
+
+    h1,
+    .top-head {
+        font-size: 3.2rem;
+        color: white;
+        margin: 5%;
+    }
+
+    .top-para {
+        font-size: 1.1rem;
+    }
+
+    .dlbtn {
+        margin: 5%;
+    }
+
+    .homesnap {
+        width: 360%;
+        margin: auto;
+    }
+}
