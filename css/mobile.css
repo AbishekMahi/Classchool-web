@@ -8,15 +8,15 @@
     #myBtn {
         bottom: 0px;
         right: 0px;
-        margin: 2rem;
-        width: 65px;
-        height: 65px;
+        margin: 1.8rem;
+        width: 55px;
+        height: 55px;
         border-radius: 50%;
         font-size: 28px;
     }
 
     .navbar {
-        margin-right: 3.5rem;
+        margin-right: 3.4rem;
         top: 0;
     }
 
@@ -32,7 +32,6 @@
         top: -0;
         right: -25px;
         cursor: pointer;
-        margin-right: 1rem;
     }
 
     .top {
