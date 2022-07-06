@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* medium size phhone */
 @media only screen and (max-width: 770px) {
     .main {
@@ -16,7 +17,7 @@
     }
 
     .navbar {
-        margin-right: 3.4rem;
+        margin-right: 3.2rem;
         top: 0;
     }
 
@@ -98,15 +99,17 @@
         height: 2.4rem;
         padding-left: 0;
     }
+
     .navbar {
         margin-right: 2rem;
         top: 0;
     }
+
     .navbar-toggler-icon {
         width: 1em !important;
         height: 1em !important;
     }
-    
+
     #daynight {
         width: 35px;
     }
@@ -115,6 +118,7 @@
     .top-head {
         font-size: 2.4rem;
     }
+
     .top-para {
         font-size: 1rem;
     }
