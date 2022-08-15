@@ -150,9 +150,11 @@ ul {
     margin-right: 3.3rem;
     top: 0;
 }
-.sticky-top{
+
+.sticky-top {
     backdrop-filter: blur(20px);
 }
+
 .navbar-brand img {
     height: 4rem;
     padding-left: 1rem;
@@ -228,7 +230,7 @@ h1,
 }
 
 .dlbtn:hover {
-    color: #7455F7 !important;
+    color: #8E62AC !important;
 }
 
 .btn-light {
